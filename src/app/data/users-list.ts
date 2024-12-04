@@ -115,5 +115,28 @@ export const UsersList: IUser[] = [
             assinaturaAtiva: false,
             ultimoAcesso: "2023-08-25T09:00:00.000Z"
         }
+    },
+    {
+        nome: "Gabriel Gallo",
+        email: "gabriel.gallo@example.com",
+        senha: "gdsj5456",
+        idade: 28,
+        endereco: {
+            rua: "August George",
+            numero: 166,
+            cidade: "São Paulo",
+            estado: "SP",
+            pais: "Brasil"
+        },
+        telefone: "11984521354",
+        ativo: true,
+        funcao: "Desenvolvedor",
+        dataCadastro: "2023-08-20T09:00:00.000Z",
+        status: {
+            online: false,
+            verificado: true,
+            assinaturaAtiva: false,
+            ultimoAcesso: "2023-08-25T09:00:00.000Z"
+        }
     }
 ];

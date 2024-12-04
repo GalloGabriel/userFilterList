@@ -8,12 +8,14 @@ import { AngularMaterialModule } from "../angular-material/angular-material.modu
 
 import { UserDetailsComponent } from './user-details/user-details.component';
 import { FilterComponent } from './filter/filter.component';
+import { UsersListComponent } from './users-list/users-list.component';
 
 
 @NgModule({
   declarations: [
     UserDetailsComponent,
-    FilterComponent
+    FilterComponent,
+    UsersListComponent
   ],
   imports: [
     FormsModule,
@@ -23,7 +25,8 @@ import { FilterComponent } from './filter/filter.component';
   ],
   exports: [
     UserDetailsComponent,
-    FilterComponent
+    FilterComponent,
+    UsersListComponent
   ],
 })
 export class ComponentsModule { }
